@@ -1,7 +1,8 @@
 package ejercicio;
 
+//Se define la clase que hereda de Funcionario.
 public class Legislador extends Funcionario {
-	// Se declaran los atributos para Legislador.
+	// Se declaran los atributos de la clase Legislador.
 	private String provincia;
 	
 	// Constructor de la clase Legislador.

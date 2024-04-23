@@ -1,5 +1,6 @@
 package ejercicio;
 
+//Se define la clase que hereda de Legislador.
 public class Senador extends Legislador {
 	
 	// Constructor de la clase Senador
