@@ -14,7 +14,7 @@ public class Persona {
 		this.dni = dni;
 	}
 	
-	// Metodos getters y setters
+	// Metodos getters y setters de la clase Persona.
 	public String getNombre() {
 		return nombre;
 	}
