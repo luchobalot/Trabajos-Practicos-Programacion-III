@@ -1,13 +1,16 @@
 package ejercicios;
 
 public class Auto extends Vehiculo {
+	// Atributos de la clase Auto.
 	private boolean aireAcondicionado;
 	
+	// Constructor.
 	public Auto(String marca, int modelo, String patente, double precio, Motor motor) {
 		super(marca, modelo, patente, precio, motor);
 		this.aireAcondicionado = false; // Inicialmente el aire esta apagado.
 	}
-
+	
+	// Metodos getters y setters.
 	public boolean isAireAcondicionado() {
 		return aireAcondicionado;
 	}

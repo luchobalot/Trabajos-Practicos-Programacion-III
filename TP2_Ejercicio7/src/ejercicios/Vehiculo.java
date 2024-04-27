@@ -38,7 +38,7 @@ public class Vehiculo {
 		return patente;
 	}
 
-	public void setPetente(String patente) {
+	public void setPatente(String patente) {
 		this.patente = patente;
 	}
 
