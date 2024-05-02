@@ -13,16 +13,34 @@ public class Principal {
         System.out.println("Detalles del Local Comercial:\n");
         localcomercial1.imprimir();
         
+        
 	    // ================================
 	    // |            OFICINA           |
 	    // ================================
 	    // Se crea una instancia de Oficina
-	    Oficina oficina1 = new Oficina(12345, 95.5, "Av. Alem 123");
+	    Oficina oficina1 = new Oficina(98765, 40.2, "Irigoyen 789");
      
      	// Se imprimen los detalles del local comercial
 	    System.out.println("-------------------------");
      	System.out.println("\nDetalles de la Oficina:\n");
      	oficina1.imprimir();
+	
+     	
+     	// ================================
+     	// |      CASA INDEPENDIENTE      |
+     	// ================================
+     	
+     	// ================================
+     	// |      CASA CJTO. CERRADO      |
+     	// ================================
+     	
+     	// ================================
+     	// |         MONOAMBIENTE         |
+     	// ================================
+     	
+     	// ================================
+     	// |      DEPTO. FAMILIAR         |
+     	// ================================
     }
 
 }
