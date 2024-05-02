@@ -6,8 +6,8 @@ public class InmuebleVivienda extends Inmueble {
 	private int numBanios;
 	
 	// Constructor de inmueble vivienda
-	public InmuebleVivienda(int identificador, double area, String direccion, int numHabitaciones, int numBanios) {
-		super(identificador, area, direccion);
+	public InmuebleVivienda(int identificador, double area, String direccion, int preciom2, int numHabitaciones, int numBanios) {
+		super(identificador, area, direccion, preciom2);
 		this.numHabitaciones = numHabitaciones;
 		this.numBanios = numBanios;
 			
@@ -35,5 +35,10 @@ public class InmuebleVivienda extends Inmueble {
 		System.out.println("Cantidad de habitaciones: "+ numHabitaciones);
 		System.out.println("Cantidad de baños: "+ numBanios);
 		
+	}
+	
+	// Metodo para caluclar el valor de los inmuebles, teniendo en cuenta el area y el precio por m2.
+	public void valorInmueble() {
+		super.valorInmueble();
 	}
 }

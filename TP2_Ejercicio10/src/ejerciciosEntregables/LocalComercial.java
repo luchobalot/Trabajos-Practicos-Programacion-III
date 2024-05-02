@@ -6,8 +6,8 @@ public class LocalComercial extends InmuebleComercial {
 	private String localizacion; // Puede ser: Interna o Calle.
 	
 	// Constructor.
-	public LocalComercial(int identificador, double area, String direccion, String centroComercial, String localizacion){
-		super(identificador, area, direccion);
+	public LocalComercial(int identificador, double area, String direccion, int preciom2, String centroComercial, String localizacion){
+		super(identificador, area, direccion, preciom2);
 		this.centroComercial = centroComercial;
 		this.localizacion = localizacion;
 	}
@@ -36,4 +36,10 @@ public class LocalComercial extends InmuebleComercial {
 	    System.out.println("Centro Comercial: " + centroComercial);
 	    System.out.println("¿Ubicacion Interna/Calle?: " + localizacion);
 	    }
+	
+	// Metodo para caluclar el valor de los inmuebles, teniendo en cuenta el area y el precio por m2.
+	public void valorInmueble() {
+		super.valorInmueble();
+	}
+	
 }
